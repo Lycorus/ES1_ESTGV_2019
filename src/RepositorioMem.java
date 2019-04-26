@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Repositorio {
+public class RepositorioMem implements Repositorio{
 
     ArrayList<Utilizador> arrayUser = new ArrayList<>();
     ArrayList<TipoUtilizador> arrayTipoUser = new ArrayList<>();
@@ -17,7 +17,7 @@ public class Repositorio {
     ArrayList<Encomenda> arrayEncomenda = new ArrayList<>();
 
 
-    public Repositorio() {
+    public RepositorioMem() {
     }
 
     public void adicionaUtilizador(Utilizador utilizador){
