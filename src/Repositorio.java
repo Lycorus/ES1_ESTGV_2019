@@ -26,6 +26,12 @@ public interface Repositorio {
 
     public void adicionaEncomenda(Encomenda encomenda);
 
+    public void adicionaPropostaManutencao(PropostaManutencao propostaManutencao);
+
+    public void adicionaRequisicaoManutencao(RequisicaoManutencao requisicaoManutencao);
+
+    public void adicionaManutencao(Manutencao manutencao);
+
     public Emprestimo devolveEmprestimoDaRequisicao(Requisicao r);
 
 }
