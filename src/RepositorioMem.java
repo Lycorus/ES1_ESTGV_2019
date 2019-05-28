@@ -23,6 +23,22 @@ public class RepositorioMem implements Repositorio{
     public RepositorioMem() {
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void adicionaUtilizador(Utilizador utilizador){
         arrayUser.add(utilizador);
     }

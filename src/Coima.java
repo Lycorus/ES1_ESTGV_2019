@@ -2,11 +2,21 @@ public class Coima {
     private String descricao;
     private float valor;
     private Devolucao devolucao;
+    private Utilizador utilizador;
 
-    public Coima(String descricao, float valor, Devolucao devolucao) {
+    public Coima(String descricao, float valor, Devolucao devolucao, Utilizador utilizador) {
+        this.utilizador = utilizador;
         this.descricao = descricao;
         this.valor = valor;
         this.devolucao = devolucao;
+    }
+
+    public Utilizador getUtilizador() {
+        return utilizador;
+    }
+
+    public void setUtilizador(Utilizador utilizador) {
+        this.utilizador = utilizador;
     }
 
     public String getDescricao() {
