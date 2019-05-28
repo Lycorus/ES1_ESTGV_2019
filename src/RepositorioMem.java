@@ -15,6 +15,9 @@ public class RepositorioMem implements Repositorio{
     ArrayList<PropostaAquisicao> arrayPropostaAquisicao = new ArrayList<>();
     ArrayList<RequisicaoCompra> arrayRequisicaoCompra = new ArrayList<>();
     ArrayList<Encomenda> arrayEncomenda = new ArrayList<>();
+    ArrayList<PropostaManutencao> arrayPropostaManutencao = new ArrayList<>();
+    ArrayList<RequisicaoManutencao> arrayRequisicaoManutencao = new ArrayList<>();
+    ArrayList<Manutencao> arrayManutencao = new ArrayList<>();
 
 
     public RepositorioMem() {
@@ -63,6 +66,18 @@ public class RepositorioMem implements Repositorio{
     public void adicionaRequisicaoCompra(RequisicaoCompra requisicaoCompra){ arrayRequisicaoCompra.add(requisicaoCompra); }
 
     public void adicionaEncomenda(Encomenda encomenda){ arrayEncomenda.add(encomenda); }
+
+    public void adicionaPropostaManutencao(PropostaManutencao propostaManutencao){
+        arrayPropostaManutencao.add(propostaManutencao);
+    }
+
+    public void adicionaRequisicaoManutencao(RequisicaoManutencao requisicaoManutencao){
+        arrayRequisicaoManutencao.add(requisicaoManutencao);
+    }
+
+    public void adicionaManutencao(Manutencao manutencao){
+        arrayManutencao.add(manutencao);
+    }
 
     public Emprestimo devolveEmprestimoDaRequisicao(Requisicao r){
         for(Emprestimo e : arrayEmprestimo){
