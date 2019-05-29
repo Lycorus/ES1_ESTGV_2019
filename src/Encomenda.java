@@ -24,4 +24,12 @@ public class Encomenda {
     public void setRequisicao(RequisicaoCompra requisicao) {
         this.requisicao = requisicao;
     }
+
+    @Override
+    public String toString() {
+        return "Encomenda{" +
+                "data=" + data.toString() +
+                ", requisicao=" + requisicao.toString() +
+                '}';
+    }
 }

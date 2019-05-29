@@ -23,21 +23,29 @@ public class RepositorioMem implements Repositorio{
     public RepositorioMem() {
     }
 
+    public ArrayList<Emprestimo> getArrayEmprestimo() {
+        return arrayEmprestimo;
+    }
 
+    public ArrayList<Coima> getArrayCoima() {
+        return arrayCoima;
+    }
 
+    public ArrayList<RequisicaoCompra> getArrayRequisicaoCompra() {
+        return arrayRequisicaoCompra;
+    }
 
+    public ArrayList<Encomenda> getArrayEncomenda() {
+        return arrayEncomenda;
+    }
 
+    public ArrayList<RequisicaoManutencao> getArrayRequisicaoManutencao() {
+        return arrayRequisicaoManutencao;
+    }
 
-
-
-
-
-
-
-
-
-
-
+    public ArrayList<Manutencao> getArrayManutencao() {
+        return arrayManutencao;
+    }
 
     public void adicionaUtilizador(Utilizador utilizador){
         arrayUser.add(utilizador);

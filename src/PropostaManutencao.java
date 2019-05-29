@@ -34,4 +34,13 @@ public class PropostaManutencao {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
+
+    @Override
+    public String toString() {
+        return "PropostaManutencao{" +
+                "dataProposta=" + dataProposta.toString() +
+                ", utilizador=" + utilizador.toString() +
+                ", descricao='" + descricao + '\'' +
+                '}';
+    }
 }

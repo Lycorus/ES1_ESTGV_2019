@@ -24,4 +24,12 @@ public class Emprestimo {
     public void setRequisicao(Requisicao requisicao) {
         this.requisicao = requisicao;
     }
+
+    @Override
+    public String toString() {
+        return "Emprestimo{" +
+                "data=" + data.toString() +
+                ", requisicao=" + requisicao.toString() +
+                '}';
+    }
 }

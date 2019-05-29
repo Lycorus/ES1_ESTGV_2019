@@ -1,4 +1,5 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -11,7 +12,21 @@ public class Main {
         RequisicaoCompraCopia requisicaoCompraCopia = new RequisicaoCompraCopia("pendente", LocalDate.now(), "Oficio",l,u);
         Encomenda encomenda = new Encomenda(LocalDate.now(),requisicaoCompraCopia);
         EntradaNovoLivro entradaNovoLivro = new EntradaNovoLivro(LocalDate.now(),encomenda,c);
-        Repositorio repo = new RepositorioMem();
+        RepositorioMem repo = new RepositorioMem();
         repo.adicionaEntradaNovoLivro(entradaNovoLivro);
+        repo.adicionaCopia(c);
+        repo.adicionaEncomenda(encomenda);
+        repo.adicionaUtilizador(u);
+        repo.adicionaLivro(l);
+        repo.adicionaRequisicaoCompra(requisicaoCompraCopia);
+
+        HistoricoUtilizador historicoUtilizador = new HistoricoUtilizador(u, repo);
+
+        ArrayList<HistoricoUtilizador> historicoUtilizadores = new ArrayList<>();
+        historicoUtilizadores.add(historicoUtilizador);
+
+        HistoricoBiblioteca historicoBiblioteca = new HistoricoBiblioteca(historicoUtilizadores, repo);
+
+        System.out.println(historicoUtilizador.toString());
     }
 }

@@ -34,4 +34,13 @@ public class Manutencao {
     public void setDataFim(LocalDate dataFim) {
         this.dataFim = dataFim;
     }
+
+    @Override
+    public String toString() {
+        return "Manutencao{" +
+                "requisicaoManutencao=" + requisicaoManutencao.toString() +
+                ", dataInicio=" + dataInicio.toString() +
+                ", dataFim=" + dataFim.toString() +
+                '}';
+    }
 }

@@ -42,4 +42,14 @@ public class Coima {
     public void setDevolucao(Devolucao devolucao) {
         this.devolucao = devolucao;
     }
+
+    @Override
+    public String toString() {
+        return "Coima{" +
+                "descricao='" + descricao + '\'' +
+                ", valor=" + valor +
+                ", devolucao=" + devolucao.toString() +
+                ", utilizador=" + utilizador.toString() +
+                '}';
+    }
 }

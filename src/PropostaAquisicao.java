@@ -34,4 +34,13 @@ public class PropostaAquisicao {
     public void setInfoLivro(String infoLivro) {
         this.infoLivro = infoLivro;
     }
+
+    @Override
+    public String toString() {
+        return "PropostaAquisicao{" +
+                "data=" + data.toString() +
+                ", utilizador=" + utilizador.toString() +
+                ", infoLivro='" + infoLivro + '\'' +
+                '}';
+    }
 }
