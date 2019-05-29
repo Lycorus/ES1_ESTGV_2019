@@ -27,9 +27,8 @@ public class RequisicaoManutencao {
 
     @Override
     public String toString() {
-        return "RequisicaoManutencao{" +
-                "dataRequisicao=" + dataRequisicao.toString() +
-                ", propostaManutencao=" + propostaManutencao.toString() +
-                '}';
+        return "RequisicaoManutencao: \n" +
+                "dataRequisicao: " + dataRequisicao.toString() + '\n' +
+                "propostaManutencao: " + propostaManutencao.toString();
     }
 }

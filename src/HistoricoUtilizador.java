@@ -87,14 +87,13 @@ public class HistoricoUtilizador extends Historico{
 
     @Override
     public String toString() {
-        return "HistoricoUtilizador{" +
-                "utilizador=" + utilizador +
-                ", requisicaosCompra=" + mostrarHistorico(requisicaosCompra) +
-                ", devolucaos=" + mostrarHistorico(devolucaos) +
-                ", coimas=" + mostrarHistorico(coimas) +
-                ", propostaManutencaos=" + mostrarHistorico(propostaManutencaos) +
-                ", propostaAquisicaos=" + mostrarHistorico(propostaAquisicaos) +
-                '}';
+        return "HistoricoUtilizador: \n" +
+                "utilizador: " + utilizador + '\n' +
+                "requisicaosCompra: " + mostrarHistorico(requisicaosCompra) +'\n' +
+                "devolucaos: " + mostrarHistorico(devolucaos) +'\n' +
+                "coimas: " + mostrarHistorico(coimas) +'\n' +
+                "propostaManutencaos: " + mostrarHistorico(propostaManutencaos) +'\n' +
+                "propostaAquisicaos: " + mostrarHistorico(propostaAquisicaos);
     }
 }
 

@@ -25,9 +25,8 @@ public class TipoUtilizador {
 
     @Override
     public String toString() {
-        return "TipoUtilizador{" +
-                "descricao='" + descricao + '\'' +
-                ", prazoEmprestimo=" + prazoEmprestimo +
-                '}';
+        return "TipoUtilizador: \n" +
+                "descricao: " + descricao + '\n' +
+                "prazoEmprestimo: " + prazoEmprestimo;
     }
 }

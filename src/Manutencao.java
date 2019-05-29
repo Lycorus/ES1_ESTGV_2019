@@ -37,10 +37,9 @@ public class Manutencao {
 
     @Override
     public String toString() {
-        return "Manutencao{" +
-                "requisicaoManutencao=" + requisicaoManutencao.toString() +
-                ", dataInicio=" + dataInicio.toString() +
-                ", dataFim=" + dataFim.toString() +
-                '}';
+        return "Manutencao: \n" +
+                "requisicaoManutencao: " + requisicaoManutencao.toString() + '\n' +
+                "dataInicio: " + dataInicio.toString() + '\n' +
+                "dataFim: " + dataFim.toString();
     }
 }

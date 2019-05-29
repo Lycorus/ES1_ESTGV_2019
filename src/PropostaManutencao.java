@@ -37,10 +37,9 @@ public class PropostaManutencao {
 
     @Override
     public String toString() {
-        return "PropostaManutencao{" +
-                "dataProposta=" + dataProposta.toString() +
-                ", utilizador=" + utilizador.toString() +
-                ", descricao='" + descricao + '\'' +
-                '}';
+        return "PropostaManutencao: \n" +
+                "dataProposta: " + dataProposta.toString() + '\n' +
+                "utilizador: " + utilizador.toString() + '\n' +
+                "descricao: " + descricao;
     }
 }

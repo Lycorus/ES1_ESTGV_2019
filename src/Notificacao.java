@@ -27,9 +27,8 @@ public class Notificacao {
 
     @Override
     public String toString() {
-        return "Notificacao{" +
-                "data=" + data.toString() +
-                ", emprestimo=" + emprestimo.toString() +
-                '}';
+        return "Notificacao: \n" +
+                "data: " + data.toString() + '\n' +
+                "emprestimo: " + emprestimo.toString();
     }
 }

@@ -57,12 +57,11 @@ public abstract class RequisicaoCompra {
 
     @Override
     public String toString() {
-        return "RequisicaoCompra{" +
-                "estado='" + estado + '\'' +
-                ", data=" + data.toString() +
-                ", oficio='" + oficio + '\'' +
-                ", livro=" + livro.toString() +
-                ", utilizador=" + utilizador.toString() +
-                '}';
+        return "RequisicaoCompra: \n" +
+                "estado: " + estado + '\n' +
+                "data: " + data.toString() + '\n' +
+                "oficio: " + oficio + '\n' +
+                "livro: " + livro.toString() + '\n' +
+                "utilizador: " + utilizador.toString();
     }
 }

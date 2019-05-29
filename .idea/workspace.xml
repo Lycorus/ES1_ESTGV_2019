@@ -7,24 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8bc1880-d9d9-4269-a87e-d203712faeee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HistoricoBiblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Coima.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coima.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Copia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Copia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Devolucao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Devolucao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Emprestimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Emprestimo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encomenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encomenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntradaNovoLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntradaNovoLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Historico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Historico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Coima.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Coima.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Copia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Copia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Devolucao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Devolucao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Emprestimo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Emprestimo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Encomenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Encomenda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/EntradaNovoLivro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/EntradaNovoLivro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Livro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Livro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Notificacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Notificacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/PropostaAquisicao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/PropostaAquisicao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Repositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Repositorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/RepositorioMem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/RepositorioMem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Requisicao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Requisicao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/RequisicaoCompra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/RequisicaoCompra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/TipoUtilizador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/TipoUtilizador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Utilizador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ModularizacaoPersistencia/Utilizador.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HistoricoUtilizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HistoricoUtilizador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manutencao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manutencao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Notificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notificacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PropostaAquisicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropostaAquisicao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PropostaManutencao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropostaManutencao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RepositorioMem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RepositorioMem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Requisicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Requisicao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RequisicaoCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RequisicaoCompra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RequisicaoManutencao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RequisicaoManutencao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TipoUtilizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TipoUtilizador.java" afterDir="false" />
@@ -39,137 +44,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HistoricoUtilizador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1780">
-              <caret line="89" column="39" lean-forward="true" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
-              <folding>
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1793#1794#0" expanded="true" />
-                <element signature="e#1833#1834#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
-                <element signature="e#1960#1961#0" expanded="true" />
-                <element signature="e#1989#1990#0" expanded="true" />
-                <element signature="e#2058#2059#0" expanded="true" />
-                <element signature="e#2100#2101#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
-                <element signature="e#2208#2209#0" expanded="true" />
-                <element signature="e#2280#2281#0" expanded="true" />
-                <element signature="e#2329#2330#0" expanded="true" />
-                <element signature="e#2374#2375#0" expanded="true" />
-                <element signature="e#2407#2408#0" expanded="true" />
-                <element signature="e#2464#2465#0" expanded="true" />
-                <element signature="e#2505#2506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HistoricoBiblioteca.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
-              <folding>
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
-                <element signature="e#1552#1553#0" expanded="true" />
-                <element signature="e#1933#1934#0" expanded="true" />
-                <element signature="e#1976#1977#0" expanded="true" />
-                <element signature="e#2029#2030#0" expanded="true" />
-                <element signature="e#2063#2064#0" expanded="true" />
-                <element signature="e#2114#2115#0" expanded="true" />
-                <element signature="e#2147#2148#0" expanded="true" />
-                <element signature="e#2200#2201#0" expanded="true" />
-                <element signature="e#2234#2235#0" expanded="true" />
-                <element signature="e#2277#2278#0" expanded="true" />
-                <element signature="e#2306#2307#0" expanded="true" />
-                <element signature="e#2371#2372#0" expanded="true" />
-                <element signature="e#2411#2412#0" expanded="true" />
-                <element signature="e#2484#2485#0" expanded="true" />
-                <element signature="e#2528#2529#0" expanded="true" />
-                <element signature="e#3137#3138#0" expanded="true" />
-                <element signature="e#3192#3193#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Historico.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Encomenda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RequisicaoCompra.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utilizador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TipoUtilizador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Livro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/PropostaManutencao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="662">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,25 +91,25 @@
         <option value="$PROJECT_DIR$/src/Repositorio.java" />
         <option value="$PROJECT_DIR$/src/RepositorioMem.java" />
         <option value="$PROJECT_DIR$/src/Historico.java" />
-        <option value="$PROJECT_DIR$/src/HistoricoUtilizador.java" />
         <option value="$PROJECT_DIR$/src/Devolucao.java" />
         <option value="$PROJECT_DIR$/src/Emprestimo.java" />
         <option value="$PROJECT_DIR$/src/Encomenda.java" />
-        <option value="$PROJECT_DIR$/src/Manutencao.java" />
-        <option value="$PROJECT_DIR$/src/PropostaAquisicao.java" />
-        <option value="$PROJECT_DIR$/src/PropostaManutencao.java" />
-        <option value="$PROJECT_DIR$/src/RequisicaoCompra.java" />
         <option value="$PROJECT_DIR$/src/Coima.java" />
         <option value="$PROJECT_DIR$/src/Copia.java" />
         <option value="$PROJECT_DIR$/src/EntradaNovoLivro.java" />
-        <option value="$PROJECT_DIR$/src/Livro.java" />
-        <option value="$PROJECT_DIR$/src/Notificacao.java" />
         <option value="$PROJECT_DIR$/src/Requisicao.java" />
-        <option value="$PROJECT_DIR$/src/RequisicaoManutencao.java" />
-        <option value="$PROJECT_DIR$/src/TipoUtilizador.java" />
-        <option value="$PROJECT_DIR$/src/Utilizador.java" />
         <option value="$PROJECT_DIR$/src/HistoricoBiblioteca.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Utilizador.java" />
+        <option value="$PROJECT_DIR$/src/HistoricoUtilizador.java" />
+        <option value="$PROJECT_DIR$/src/RequisicaoCompra.java" />
+        <option value="$PROJECT_DIR$/src/RequisicaoManutencao.java" />
+        <option value="$PROJECT_DIR$/src/Livro.java" />
+        <option value="$PROJECT_DIR$/src/TipoUtilizador.java" />
+        <option value="$PROJECT_DIR$/src/Manutencao.java" />
+        <option value="$PROJECT_DIR$/src/PropostaAquisicao.java" />
+        <option value="$PROJECT_DIR$/src/Notificacao.java" />
+        <option value="$PROJECT_DIR$/src/PropostaManutencao.java" />
       </list>
     </option>
   </component>
@@ -233,23 +125,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ES1_ESTGV_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES1_ESTGV_2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Trabalho_Final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho_Final" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ES1_ESTGV_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES1_ESTGV_2019" type="462c0819:PsiDirectoryNode" />
+              <item name="Trabalho_Final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalho_Final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -328,14 +220,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1858217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,19 +274,90 @@
     <MESSAGE value="Added HistoricoUtilizador" />
     <option name="LAST_COMMIT_MESSAGE" value="Added HistoricoUtilizador" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RepositorioMem.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Requisicao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequisicaoCompraCopia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Coima.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Copia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Devolucao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Emprestimo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Encomenda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Historico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EntradaNovoLivro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repositorio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RepositorioMem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -410,24 +373,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Devolucao.java">
+    <entry file="file://$PROJECT_DIR$/src/Utilizador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="550">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Emprestimo.java">
+    <entry file="file://$PROJECT_DIR$/src/HistoricoBiblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="-1142">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HistoricoUtilizador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="94" column="87" selection-start-line="94" selection-start-column="87" selection-end-line="94" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequisicaoCompra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequisicaoManutencao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Livro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TipoUtilizador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Manutencao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="596">
+          <caret line="40" column="83" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
           <folding>
             <element signature="e#477#478#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
@@ -445,49 +451,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PropostaAquisicao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Coima.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Copia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EntradaNovoLivro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="596">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Notificacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        <state relative-caret-position="484">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PropostaManutencao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        <state relative-caret-position="662">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#424#425#0" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
@@ -501,160 +480,6 @@
             <element signature="e#808#809#0" expanded="true" />
             <element signature="e#858#859#0" expanded="true" />
             <element signature="e#900#901#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repositorio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Requisicao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RequisicaoCompraCopia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RequisicaoManutencao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
-          <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HistoricoUtilizador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1780">
-          <caret line="89" column="39" lean-forward="true" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
-          <folding>
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1793#1794#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2058#2059#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2329#2330#0" expanded="true" />
-            <element signature="e#2374#2375#0" expanded="true" />
-            <element signature="e#2407#2408#0" expanded="true" />
-            <element signature="e#2464#2465#0" expanded="true" />
-            <element signature="e#2505#2506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Livro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TipoUtilizador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilizador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RequisicaoCompra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Encomenda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Historico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HistoricoBiblioteca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
-          <folding>
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2029#2030#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
-            <element signature="e#2147#2148#0" expanded="true" />
-            <element signature="e#2200#2201#0" expanded="true" />
-            <element signature="e#2234#2235#0" expanded="true" />
-            <element signature="e#2277#2278#0" expanded="true" />
-            <element signature="e#2306#2307#0" expanded="true" />
-            <element signature="e#2371#2372#0" expanded="true" />
-            <element signature="e#2411#2412#0" expanded="true" />
-            <element signature="e#2484#2485#0" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
-            <element signature="e#3137#3138#0" expanded="true" />
-            <element signature="e#3192#3193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

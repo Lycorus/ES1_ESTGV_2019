@@ -37,10 +37,9 @@ public class PropostaAquisicao {
 
     @Override
     public String toString() {
-        return "PropostaAquisicao{" +
-                "data=" + data.toString() +
-                ", utilizador=" + utilizador.toString() +
-                ", infoLivro='" + infoLivro + '\'' +
-                '}';
+        return "PropostaAquisicao: \n" +
+                "data: " + data.toString() + '\n' +
+                "utilizador: " + utilizador.toString() + '\n' +
+                "infoLivro: " + infoLivro;
     }
 }

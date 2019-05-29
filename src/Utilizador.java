@@ -35,10 +35,9 @@ public class Utilizador {
 
     @Override
     public String toString() {
-        return "Utilizador{" +
-                "nome='" + nome + '\'' +
-                ", estado='" + estado + '\'' +
-                ", tipoUtilizador=" + tipoUtilizador.toString() +
-                '}';
+        return "Utilizador: \n" +
+                "nome: " + nome + '\n' +
+                "estado: " + estado + '\n' +
+                "tipoUtilizador: " + tipoUtilizador.toString();
     }
 }
