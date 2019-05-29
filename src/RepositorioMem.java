@@ -23,6 +23,22 @@ public class RepositorioMem implements Repositorio{
     public RepositorioMem() {
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void adicionaUtilizador(Utilizador utilizador){
         arrayUser.add(utilizador);
     }
@@ -86,5 +102,64 @@ public class RepositorioMem implements Repositorio{
             }
         }
         return null;
+    }
+
+    @Override
+    public ArrayList<RequisicaoCompra> devolveRequisiacaosCompraByUtilizador(Utilizador u) {
+        ArrayList<RequisicaoCompra> rqcompra = new ArrayList<>();
+        for(RequisicaoCompra r : arrayRequisicaoCompra){
+            if(r.getUtilizador() == u){
+                rqcompra.add(r);
+            }
+        }
+        return rqcompra;
+    }
+
+    @Override
+    public ArrayList<Coima> devolveCoimasByUtilizador(Utilizador u) {
+        ArrayList<Coima> coimas = new ArrayList<>();
+        for(Coima c : arrayCoima){
+
+            if(c.getUtilizador() == u){
+                coimas.add(c);
+            }
+        }
+        return coimas;
+    }
+
+    @Override
+    public ArrayList<Devolucao> devolveDevolucaosByUtilizador(Utilizador u) {
+        ArrayList<Devolucao> devolucaos = new ArrayList<>();
+        for(Devolucao d : arrayDevolucao){
+
+            if(d.getEmprestimo().getRequisicao().getUtilizador() == u){
+                devolucaos.add(d);
+            }
+        }
+        return devolucaos;
+    }
+
+    @Override
+    public ArrayList<PropostaManutencao> devolvePropostasManutencaoByUtilizador(Utilizador u) {
+        ArrayList<PropostaManutencao> propostaManutencaos = new ArrayList<>();
+        for(PropostaManutencao pm : arrayPropostaManutencao){
+
+            if(pm.getUtilizador() == u){
+                propostaManutencaos.add(pm);
+            }
+        }
+        return propostaManutencaos;
+    }
+
+    @Override
+    public ArrayList<PropostaAquisicao> devolvePropostasAquisicaoByUtilizador(Utilizador u) {
+        ArrayList<PropostaAquisicao> propostaAquisicaos = new ArrayList<>();
+        for(PropostaAquisicao pa : arrayPropostaAquisicao){
+
+            if(pa.getUtilizador() == u){
+                propostaAquisicaos.add(pa);
+            }
+        }
+        return propostaAquisicaos;
     }
 }

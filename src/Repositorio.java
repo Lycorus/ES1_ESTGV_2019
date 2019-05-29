@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public interface Repositorio {
 
     public void adicionaUtilizador(Utilizador utilizador);
@@ -34,4 +36,13 @@ public interface Repositorio {
 
     public Emprestimo devolveEmprestimoDaRequisicao(Requisicao r);
 
+    public ArrayList<RequisicaoCompra> devolveRequisiacaosCompraByUtilizador(Utilizador u);
+
+    public ArrayList<Coima> devolveCoimasByUtilizador(Utilizador u);
+
+    public ArrayList<Devolucao> devolveDevolucaosByUtilizador(Utilizador u);
+
+    public ArrayList<PropostaManutencao> devolvePropostasManutencaoByUtilizador(Utilizador u);
+
+    public ArrayList<PropostaAquisicao> devolvePropostasAquisicaoByUtilizador(Utilizador u);
 }
