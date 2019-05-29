@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class HistoricoUtilizador {
+public class HistoricoUtilizador extends Historico{
     private Utilizador utilizador;
     private ArrayList<RequisicaoCompra> requisicaosCompra;
     private ArrayList<Devolucao> devolucaos;
@@ -83,6 +83,17 @@ public class HistoricoUtilizador {
 
     public void adicionaPropostaAquisicao(PropostaAquisicao propostaAquisicao){
         propostaAquisicaos.add(propostaAquisicao);
+    }
+
+    @Override
+    public String toString() {
+        return "HistoricoUtilizador: \n" +
+                "utilizador: " + utilizador + '\n' +
+                "requisicaosCompra: " + mostrarHistorico(requisicaosCompra) +'\n' +
+                "devolucaos: " + mostrarHistorico(devolucaos) +'\n' +
+                "coimas: " + mostrarHistorico(coimas) +'\n' +
+                "propostaManutencaos: " + mostrarHistorico(propostaManutencaos) +'\n' +
+                "propostaAquisicaos: " + mostrarHistorico(propostaAquisicaos);
     }
 }
 

@@ -22,4 +22,12 @@ public class Copia {
     public void setLivro(Livro livro) {
         this.livro = livro;
     }
+
+    @Override
+    public String toString() {
+        return "Copia{" +
+                "id=" + id +
+                ", livro=" + livro.toString() +
+                '}';
+    }
 }

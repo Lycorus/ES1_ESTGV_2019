@@ -34,4 +34,13 @@ public class EntradaNovoLivro {
     public void setCopia(Copia copia) {
         this.copia = copia;
     }
+
+    @Override
+    public String toString() {
+        return "EntradaNovoLivro{" +
+                "data=" + data.toString() +
+                ", encomenda=" + encomenda.toString() +
+                ", copia=" + copia.toString() +
+                '}';
+    }
 }

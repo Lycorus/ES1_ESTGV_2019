@@ -24,4 +24,11 @@ public class Notificacao {
     public void setEmprestimo(Emprestimo emprestimo) {
         this.emprestimo = emprestimo;
     }
+
+    @Override
+    public String toString() {
+        return "Notificacao: \n" +
+                "data: " + data.toString() + '\n' +
+                "emprestimo: " + emprestimo.toString();
+    }
 }

@@ -22,4 +22,11 @@ public class TipoUtilizador {
     public void setPrazoEmprestimo(int prazoEmprestimo) {
         this.prazoEmprestimo = prazoEmprestimo;
     }
+
+    @Override
+    public String toString() {
+        return "TipoUtilizador: \n" +
+                "descricao: " + descricao + '\n' +
+                "prazoEmprestimo: " + prazoEmprestimo;
+    }
 }

@@ -34,4 +34,13 @@ public class Requisicao {
     public void setCopia(Copia copia) {
         this.copia = copia;
     }
+
+    @Override
+    public String toString() {
+        return "Requisicao{" +
+                "data=" + data.toString() +
+                ", utilizador=" + utilizador.toString() +
+                ", copia=" + copia.toString() +
+                '}';
+    }
 }

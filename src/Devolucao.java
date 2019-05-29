@@ -24,4 +24,12 @@ public class Devolucao {
     public void setEmprestimo(Emprestimo emprestimo) {
         this.emprestimo = emprestimo;
     }
+
+    @Override
+    public String toString() {
+        return "Devolucao{" +
+                "data=" + data.toString() +
+                ", emprestimo=" + emprestimo.toString() +
+                '}';
+    }
 }

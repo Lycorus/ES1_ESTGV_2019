@@ -22,4 +22,11 @@ public class Livro {
     public void setEditora(String editora) {
         this.editora = editora;
     }
+
+    @Override
+    public String toString() {
+        return "Livro: \n" +
+                "titulo: " + titulo + '\n' +
+                "editora: " + editora;
+    }
 }

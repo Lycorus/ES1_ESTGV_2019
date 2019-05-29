@@ -24,4 +24,11 @@ public class RequisicaoManutencao {
     public void setPropostaManutencao(PropostaManutencao propostaManutencao) {
         this.propostaManutencao = propostaManutencao;
     }
+
+    @Override
+    public String toString() {
+        return "RequisicaoManutencao: \n" +
+                "dataRequisicao: " + dataRequisicao.toString() + '\n' +
+                "propostaManutencao: " + propostaManutencao.toString();
+    }
 }

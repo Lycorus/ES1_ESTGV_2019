@@ -32,4 +32,12 @@ public class Utilizador {
     public void setEstado(String estado) {
         this.estado = estado;
     }
+
+    @Override
+    public String toString() {
+        return "Utilizador: \n" +
+                "nome: " + nome + '\n' +
+                "estado: " + estado + '\n' +
+                "tipoUtilizador: " + tipoUtilizador.toString();
+    }
 }

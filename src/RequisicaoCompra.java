@@ -54,4 +54,14 @@ public abstract class RequisicaoCompra {
     public void setUtilizador(Utilizador utilizador) {
         this.utilizador = utilizador;
     }
+
+    @Override
+    public String toString() {
+        return "RequisicaoCompra: \n" +
+                "estado: " + estado + '\n' +
+                "data: " + data.toString() + '\n' +
+                "oficio: " + oficio + '\n' +
+                "livro: " + livro.toString() + '\n' +
+                "utilizador: " + utilizador.toString();
+    }
 }
