@@ -7,6 +7,7 @@ public class HistoricoUtilizador extends Historico{
     private ArrayList<Coima> coimas;
     private ArrayList<PropostaManutencao> propostaManutencaos;
     private ArrayList<PropostaAquisicao> propostaAquisicaos;
+    private ArrayList<Requisicao> requisicaos;
 
     public HistoricoUtilizador(Utilizador utilizador, RepositorioMem repo) {
         this.utilizador = utilizador;
@@ -15,6 +16,15 @@ public class HistoricoUtilizador extends Historico{
         this.coimas = repo.devolveCoimasByUtilizador(utilizador);
         this.propostaManutencaos = repo.devolvePropostasManutencaoByUtilizador(utilizador);
         this.propostaAquisicaos = repo.devolvePropostasAquisicaoByUtilizador(utilizador);
+        this.requisicaos = repo.devolveRequisicaosByUtilizador(utilizador);
+    }
+
+    public ArrayList<Requisicao> getRequisicaos() {
+        return requisicaos;
+    }
+
+    public void setRequisicaos(ArrayList<Requisicao> requisicaos) {
+        this.requisicaos = requisicaos;
     }
 
     public void setRequisicaosCompra(ArrayList<RequisicaoCompra> requisicaosCompra) {
@@ -85,6 +95,10 @@ public class HistoricoUtilizador extends Historico{
         propostaAquisicaos.add(propostaAquisicao);
     }
 
+    public void adicionaRequisicao(Requisicao requisicao){
+        requisicaos.add(requisicao);
+    }
+
     @Override
     public String toString() {
         return "HistoricoUtilizador: \n" +
@@ -93,6 +107,7 @@ public class HistoricoUtilizador extends Historico{
                 "devolucaos: " + mostrarHistorico(devolucaos) +'\n' +
                 "coimas: " + mostrarHistorico(coimas) +'\n' +
                 "propostaManutencaos: " + mostrarHistorico(propostaManutencaos) +'\n' +
+                "requisicaos: " + mostrarHistorico(requisicaos) +'\n' +
                 "propostaAquisicaos: " + mostrarHistorico(propostaAquisicaos);
     }
 }
