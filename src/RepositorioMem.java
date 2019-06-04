@@ -170,4 +170,16 @@ public class RepositorioMem implements Repositorio{
         }
         return propostaAquisicaos;
     }
+
+    @Override
+    public ArrayList<Requisicao> devolveRequisicaosByUtilizador(Utilizador u) {
+        ArrayList<Requisicao> requisicaos = new ArrayList<>();
+        for(Requisicao req : arrayRequisicao){
+
+            if(req.getUtilizador() == u){
+                requisicaos.add(req);
+            }
+        }
+        return requisicaos;
+    }
 }

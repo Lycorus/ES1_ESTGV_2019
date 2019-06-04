@@ -45,4 +45,6 @@ public interface Repositorio {
     public ArrayList<PropostaManutencao> devolvePropostasManutencaoByUtilizador(Utilizador u);
 
     public ArrayList<PropostaAquisicao> devolvePropostasAquisicaoByUtilizador(Utilizador u);
+
+    public ArrayList<Requisicao> devolveRequisicaosByUtilizador(Utilizador u);
 }
